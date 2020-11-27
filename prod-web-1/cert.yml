@@ -1,9 +1,9 @@
 apiVersion: cert-manager.io/v1
 kind: Certificate
 metadata:
-  name: ingress-cert 
+  name: bw-cert 
 spec:
-  secretName: ingress-cert
+  secretName: bw-cert
   commonName: bitwarden.matthew-cloud.com
   dnsNames:
     - bitwarden.matthew-cloud.com
